@@ -118,6 +118,7 @@
 #sec02 h2+p{
     margin-bottom:20px;
     font-size:16px;
+    line-height: 20px;
     color:#000;
     text-align:center;
 }
@@ -432,6 +433,7 @@
     }
     #sec02 h2+p{
         font-size:20px;
+        line-height: 25px;
         margin-bottom:30px;
     }
     #sec02 li{
@@ -553,7 +555,10 @@
 }
 
 @media (min-width:1280px){
-              
+
+    #header nav ul{
+        font-size: 22px;
+    }
     #sec01 .container{
         height:800px;
     }
@@ -589,6 +594,7 @@
     #sec02 h2+p{
         margin-bottom:60px;
         font-size:40px;
+        line-height: 42px;
         text-align:left;
     }
     #sec02 li{
